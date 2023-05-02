@@ -1,3 +1,18 @@
+# swift-coreml-diffusers.swiftpm
+
+This repository is a fork of https://github.com/huggingface/swift-coreml-diffusers and is a Swift Playgrounds App project, so you can open and run this app in Swift Playgrounds on iPadOS.
+
+## Get Started
+
+1. Clone this repository
+    - To clone, I recommend using [Working Copy](https://workingcopyapp.com) or [a-Shell](https://holzschu.github.io/a-Shell_iOS/) (`lg2` command).
+1. Open swift-coreml-diffusers.swiftpm with Swift Playgrounds
+1. Run
+
+## Screenshot
+
+![Screenshot](screenshot-ipados.png)
+
 #  Swift Core ML Diffusers 🧨
 
 This is a native app that shows how to integrate Apple's [Core ML Stable Diffusion implementation](https://github.com/apple/ml-stable-diffusion) in a native Swift UI application. The Core ML port is a simplification of the Stable Diffusion implementation from the [diffusers library](https://github.com/huggingface/diffusers). This application can be used for faster iteration, or as sample code for any use cases.
