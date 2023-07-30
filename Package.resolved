@@ -6,7 +6,7 @@
       "location" : "https://github.com/buh/CompactSlider.git",
       "state" : {
         "branch" : "main",
-        "revision" : "3cb37fb7385913835b6844c6af2680c64000dcd2"
+        "revision" : "6d591a76caecd583ad69fbcd06f2fb83135318c0"
       }
     },
     {
@@ -15,16 +15,7 @@
       "location" : "https://github.com/apple/ml-stable-diffusion",
       "state" : {
         "branch" : "main",
-        "revision" : "fb1fa01c9d30e9b2e02a8b7ed35d905e272a0262"
-      }
-    },
-    {
-      "identity" : "path.swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mxcl/Path.swift.git",
-      "state" : {
-        "revision" : "9c6f807b0a76be0e27aecc908bc6f173400d839e",
-        "version" : "1.4.0"
+        "revision" : "8cf34376f9faf87fc6fe63159e5fae6cbbb71de6"
       }
     },
     {

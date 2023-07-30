@@ -14,7 +14,6 @@ let package = Package(
     products: [],
     dependencies: [
         	.package(url: "https://github.com/apple/ml-stable-diffusion", branch: "main"),
-		.package(url: "https://github.com/mxcl/Path.swift.git", "1.0.0"..<"2.0.0"),
 		.package(url: "https://github.com/weichsel/ZIPFoundation.git", "0.9.9"..<"1.0.0"),
 		.package(url: "https://github.com/buh/CompactSlider.git", branch: "main"),
     ],
@@ -23,7 +22,6 @@ let package = Package(
             name: "Diffusion",
             dependencies: [
                 .product(name: "StableDiffusion", package: "ml-stable-diffusion"),
-                .product(name: "Path", package: "Path.swift"),
                 .product(name: "ZIPFoundation", package: "ZIPFoundation"),
                 .product(name: "CompactSlider", package: "CompactSlider"),
             ],
