@@ -10,12 +10,14 @@ import Foundation
 
 let runningOnMac = true
 let deviceHas6GBOrMore = true
+let deviceHas8GBOrMore = true
+let BENCHMARK = false
 
 let deviceSupportsQuantization = {
     if #available(macOS 14, *) {
-        true
+        return true
     } else {
-        false
+        return false
     }
 }()
 
