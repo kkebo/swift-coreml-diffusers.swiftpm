@@ -13,7 +13,7 @@ let package = Package(
     ],
     products: [],
     dependencies: [
-        	.package(url: "https://github.com/apple/ml-stable-diffusion", branch: "main"),
+        	.package(url: "https://github.com/argmaxinc/ml-stable-diffusion", branch: "main"),
 		.package(url: "https://github.com/weichsel/ZIPFoundation.git", "0.9.9"..<"1.0.0"),
 		.package(url: "https://github.com/buh/CompactSlider.git", branch: "main"),
     ],
